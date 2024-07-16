@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.ico</file>
+        <file>github.png</file>
+        <file>info.png</file>
+        <file>number-1.png</file>
+        <file>number-2.png</file>
+        <file>number-3.png</file>
+        <file>number-one.png</file>
+        <file>number-three.png</file>
+        <file>number-two.png</file>
+    </qresource>
+</RCC>
