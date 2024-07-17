@@ -68,7 +68,7 @@ QString FileController::getThisTime(int n)
 }
 
 bool FileController::findZPoint() {
-    QFile file(gstatsPath);
+    QFile file(gstats_modPath);
     if (!file.open(QIODevice::ReadOnly)) {
         qDebug() << "文件无法打开！";
         return false;
@@ -97,7 +97,7 @@ int FileController::getZPoint() {
         return -1;
     }
 
-    QFile file(gstatsPath);
+    QFile file(gstats_modPath);
     if (!file.open(QIODevice::ReadOnly)) {
         qDebug() << "文件无法打开！";
         return -1;
@@ -123,7 +123,7 @@ bool FileController::setZPoint(int n) {
         return false;
     }
 
-    QFile file(gstatsPath);
+    QFile file(gstats_modPath);
     if (!file.open(QIODevice::ReadWrite)) {
         qDebug() << "文件无法打开！";
         return false;
